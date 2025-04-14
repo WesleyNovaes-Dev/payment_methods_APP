@@ -1,0 +1,39 @@
+
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 165, 0, 0.9);
+}
+
+.home-content {
+  padding: 2rem;
+  border-radius: 12px;
+  background: white;
+  text-align: center;
+  box-shadow: 0 0 20px #333;
+}
+
+.perfil-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.btn-amarelo {
+  background-color: #fdd835;
+  color: black;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-amarelo:hover {
+  background-color: #fbc02d;
+}
